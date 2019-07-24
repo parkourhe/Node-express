@@ -5,8 +5,7 @@ var app = express()
 
 app.engine('html',require('express-art-template'))
 
-//通过node.js可以轻松控制服务器的公共资源和私有资源
-// createServer的函数默认绑定request事件
+
 
 var comments = [
 	{
